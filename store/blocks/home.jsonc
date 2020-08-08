@@ -31,11 +31,11 @@
     "props":{
       "isFullModelStyle": false,
       "headline": "Shining chrome",
-      "callToActionText": "Go to Collection",
-      "callToActionMode": "target",
-      "callToActionUrl": "/sale/",
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
       "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+      "callToActionText": "Go to Collection",
+      "callToActionMode": "link",
+      "callToActionLinkTarget": "https://rodsvtex--appliancetheme.myvtex.com/#",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
       "textPosition": "left",
       "textAlignment":"center"
     }

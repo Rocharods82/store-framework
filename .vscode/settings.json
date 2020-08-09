@@ -1,6 +1,7 @@
 {
     "cSpell.ignoreWords": [
         "action",
+        "button",
         "call",
         "call to action mode",
         "false",
@@ -13,10 +14,14 @@
         "model",
         "rich",
         "rich text",
+        "sale",
         "self",
         "style",
         "text",
-        "to"
+        "to",
+        "vintage",
+        "vtex",
+        "vtex button"
     ],
     "cSpell.words": [
         "blocks",

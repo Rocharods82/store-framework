@@ -7,6 +7,7 @@
         "call",
         "call to action mode",
         "card",
+        "desktop",
         "false",
         "flex",
         "flex layout row",
@@ -28,6 +29,8 @@
         "product",
         "product rating inline",
         "rating",
+        "responsive",
+        "responsive layout desktop",
         "rethink",
         "rich",
         "rich text",
@@ -49,12 +52,20 @@
         "blocks",
         "button",
         "card",
+        "coffee",
+        "collection",
         "hello",
         "hello world",
         "info",
         "info card button right",
         "left",
+        "makers",
+        "n",
+        "new",
         "right",
-        "world"
+        "way",
+        "world",
+        "your",
+        "your coffee way n new makers collection"
     ]
 }

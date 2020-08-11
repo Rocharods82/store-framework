@@ -1,6 +1,7 @@
 {
     "cSpell.ignoreWords": [
         "action",
+        "align",
         "autoplay",
         "brand",
         "button",
@@ -40,8 +41,11 @@
         "rich text",
         "row",
         "sale",
+        "savings",
         "self",
         "shelf",
+        "show",
+        "show savings",
         "slider",
         "slider layout",
         "stretch",
@@ -50,6 +54,7 @@
         "to",
         "top",
         "vertical",
+        "vertical align",
         "vintage",
         "vtex",
         "vtex button",

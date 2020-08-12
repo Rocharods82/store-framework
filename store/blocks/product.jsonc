@@ -3,6 +3,7 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
+      "flex-layout.row#product",
       "shelf.relatedProducts"
     ]
   },
@@ -17,6 +18,18 @@
     ]
   },
 
+  "flex-layout.row#product": {
+    "children":[
+      "sku-selector"
+    ]
+  },
+  "sku-selector": {
+    "props":{
+      "initialSelection": "complete"
+    }
+  },
+
+
   "flex-layout.col#left": {
     "children": [
       "stack-layout#brand"
@@ -30,7 +43,8 @@
   },
   "product-brand": {
     "props": {
-      "displayMode": "logo"
+      "displayMode": "logo",
+      "height": 30
     }
   },
 

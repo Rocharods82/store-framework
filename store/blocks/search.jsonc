@@ -15,9 +15,13 @@
     "children": [
       "breadcrumb.search",
       "search-title.v2",
-      "flex-layout.row#top",
+      "total-products.v2",
+      "order-by.v2",
+      /* "flex-layout.row#top", */
+      "search-content",
       "search-fetch-previous",
-      "flex-layout.row#results",
+      /* "flex-layout.row#results", */
+      "filter-navigator.v3",
       "search-fetch-more"
     ]
   }/* ,

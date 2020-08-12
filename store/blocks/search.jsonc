@@ -15,16 +15,12 @@
     "children": [
       "breadcrumb.search",
       "search-title.v2",
-      "total-products.v2",
-      "order-by.v2",
-      /* "flex-layout.row#top", */
-      "search-content",
+      "flex-layout.row#top",
       "search-fetch-previous",
-      /* "flex-layout.row#results", */
-      "filter-navigator.v3",
+      "flex-layout.row#results",
       "search-fetch-more"
     ]
-  }/* ,
+  },
   "flex-layout.row#top": {
     "children": [
       "total-products.v2",
@@ -61,5 +57,5 @@
     "blocks": [
       "product-summary.shelf"
     ]
-  } */
+  } 
 }

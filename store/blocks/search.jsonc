@@ -20,7 +20,7 @@
       "flex-layout.row#results",
       "search-fetch-more"
     ]
-  },
+  }/* ,
   "flex-layout.row#top": {
     "children": [
       "total-products.v2",
@@ -57,5 +57,5 @@
     "blocks": [
       "product-summary.shelf"
     ]
-  }
+  } */
 }

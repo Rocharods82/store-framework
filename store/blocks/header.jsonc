@@ -3,15 +3,16 @@
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile",
-      "header.full"
+      "header.full",
+      "header-row#main"
       
     ]
   },
   "header.full": {
     "blocks": [
       "header-layout.desktop",
-      "header-layout.mobile",
-      "header-row#main"
+      "header-layout.mobile"
+      
     ]
 },
   "header-layout.desktop": {

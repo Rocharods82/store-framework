@@ -11,15 +11,14 @@
   "header.full": {
     "blocks": [
       "header-layout.desktop",
-      "header-layout.mobile",
-      "header-row#main"
+      "header-layout.mobile"
       
     ]
 },
   "header-layout.desktop": {
     "children": [
-        "header-row#notification"
-        
+        "header-row#notification",
+        "header-row#main"
     ]
   },
   "header-layout.mobile": {
@@ -27,16 +26,6 @@
       "header-row#notification",
       "header-row#main-mobile",
       "header-row#search"
-    ]
-  },
-  
-    "header-row#notification": {
-    "children": [
-      "header-spacer",
-      "rich-text#header",
-      "header-spacer"
-      
-     
     ]
   },
   "header-row#main": {
@@ -53,6 +42,16 @@
       "sticky": true,
       "fullWidth":false
     }
+  },
+  
+    "header-row#notification": {
+    "children": [
+      "header-spacer",
+      "rich-text#header",
+      "header-spacer"
+      
+     
+    ]
   },
    
 "header-row#main-mobile": {

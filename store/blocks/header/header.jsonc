@@ -2,23 +2,30 @@
   "header": {
     "blocks": [
       "header-row#main-desktop",
-      "header-row#main-mobile",
-      "header-row#notification"
+      "header-row#main-mobile"
+      
     ]
   },
   "header.full": {
     "blocks": [
-        "header-layout.desktop",
-        "header-layout.mobile"
+      "header-row#main-desktop",
+      "header-row#main-mobile"
     ]
 },
+  "header-row#main-desktop": {
+    "children": [
+        "header-row#notification",
+        "header-row#main"
+    ]
+  },
+  
     "header-row#notification": {
     "children": [
       "header-spacer",
       "rich-text#header",
       "header-spacer",
-      "header-row#main",
-      "header-row#main-mobile"
+      "header-row#main"
+     
     ]
   },
   "header-row#main": {
@@ -37,14 +44,6 @@
     }
   },
    
-  "header-row#main-desktop": {
-  "children": [
-      "header-row#notification",
-      "header-row#main"
-  ]
-},
-
-
 "header-row#main-mobile": {
   "children": [
     "logo",

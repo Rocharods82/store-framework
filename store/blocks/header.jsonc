@@ -25,6 +25,7 @@
     "children": [
       "header-row#notification",
       "header-row#main-mobile",
+      "header-row#main",
       "header-row#search"
     ]
   },

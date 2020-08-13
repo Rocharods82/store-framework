@@ -15,9 +15,19 @@
   "header-layout.desktop": {
     "children": [
       "header-row#notification",
-      "header-row#main"
+      "header-row#main",
+      "header-row#menu"
     ]
   },
+/* ----Declaração do menu----- */
+  "header-row#menu": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#categories",
+      "header-spacer"
+    ]
+  },
+
   "header-layout.mobile": {
     "children": [
       "header-row#notification",
@@ -51,7 +61,8 @@
       "logo",
       "header-spacer",
       "minicart",
-      "login"
+      "login",
+      "drawer"
     ],
     "props": {
       "sticky": true,
@@ -83,4 +94,18 @@
       "textPosition": "CENTER"
     }
   }
+
+ /*  ---------------Menu ------------------- */
+   /*  "vtex.menu@2.x:menu#categories": {
+      "children": [
+        "menu-item#major-appliances",
+        "menu-item#small-appliances",
+        "menu-item#electronics"
+      ],
+  
+      "props":{
+        "orientation": "horizontal"
+      }
+    
+  } */
 }

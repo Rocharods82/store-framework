@@ -1,8 +1,7 @@
 {
   "header": {
     "blocks": [
-      "header-row#main-desktop",
-      "header-row#main-mobile"
+      "header.full"
       
     ]
   },

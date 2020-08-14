@@ -63,6 +63,7 @@
     },
     "accepted-payment-methods": {
         "props": {
+            "showInColor": true,
             "paymentMethods": [
                 "Mastercard",
                 "Visa",

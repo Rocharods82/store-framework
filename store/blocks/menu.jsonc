@@ -21,13 +21,19 @@
     "menu-item#small-appliances": {
         "blocks": [
             "vtex.menu@2.x:submenu#small"
-        ]
+        ],
+        "props": {
+            "id": "menu-item#small-appliances"
+        }
     },
     "menu-item#electronics": {
         "blocks": [
             "vtex.menu@2.x:submenu#electronics"
-        ]
-    },
+        ],
+        "props": {
+            "id": "menu-item#electronics"
+        },
+
     "vtex.menu@2.x:menu#major": {
       "children": [
         "menu-item#refrigerators",

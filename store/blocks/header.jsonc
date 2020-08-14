@@ -8,8 +8,7 @@
   "header.full": {
     "blocks": [
       "header-layout.desktop",
-      "header-layout.mobile",
-      "header-row#main"
+      "header-layout.mobile"
     ]
   },
   "header-layout.desktop": {
@@ -94,18 +93,4 @@
       "textPosition": "CENTER"
     }
   }
-
- /*  ---------------Menu ------------------- */
-   /*  "vtex.menu@2.x:menu#categories": {
-      "children": [
-        "menu-item#major-appliances",
-        "menu-item#small-appliances",
-        "menu-item#electronics"
-      ],
-  
-      "props":{
-        "orientation": "horizontal"
-      }
-    
-  } */
 }
